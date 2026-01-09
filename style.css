@@ -53,3 +53,70 @@ header nav ul li a {
 header nav .nav-btn {
     padding: 24px 120px 0 24px;
 }
+
+/* Banner Section */
+
+.banner{
+     background: linear-gradient(rgba(0, 25, 49, 0.601), rgba(0, 25, 49, 0)), url("./assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.banner-container{
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin: auto;
+}
+.banner-container .sub-heading {
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    color: #469165;
+    line-height: 19px;
+    margin-top: 116px;
+    padding: 8px 12px;
+}
+.banner-container h1 {
+    font-size: 71px;
+    font-weight: 700;
+    line-height: 84px;
+    padding: 0 280px;
+    opacity: 90%;
+    text-align: center;
+}
+.banner-container h1 .b-span1 {
+    color: #FFFFFF;
+}
+.banner-container h1 .b-span2 {
+    color: #30B868;
+}
+.banner-container .banner-des {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 0 295px;
+}
+.banner-container .banner-button {
+    padding: 12px 16px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 16px;
+}
+.banner-container .banner-button:hover {
+    background-color: #FFFFFF;
+    color: #469165;
+    transition: 0.3s;
+}
+.banner-container .button-container {
+    padding-bottom: 180px;
+}
