@@ -267,6 +267,50 @@ header nav .nav-btn {
     margin-left: 6px;
 }
 
+/* Challenge section */
+.challenge {
+    margin: 0 auto 120px auto;
+}
+
+.challenge .challenge-container {
+    border-radius: 12px;
+    background-color: #F7F6F2;
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 16px;
+    text-align: center;
+}
+
+.challenge-container .challenge-content {
+    padding: 80px 40px;
+}
+
+.challenge-container .challenge-content h1 {
+    font-size: 40px;
+    color: #001931;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+.challenge-content .challenge-content-des {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.challenge-content .challenge-content-des-last {
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.challenge-content button {
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+
 /* Footer section */
 footer {
     background-color: #001931;
