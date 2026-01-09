@@ -196,3 +196,73 @@ header nav .nav-btn {
     line-height: 20px;
     color: #627382;
 }
+
+/* Second brain section */
+.second-brain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.second-brain-container {
+    max-width: 1360px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.second-brain-container .brain-img {
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+.second-brain-container .brain-info {
+    padding: 102px 0;
+}
+
+.second-brain-container .brain-info .brain-sub-heading {
+    font-size: 16px;
+    line-height: 20px;
+    color: #469165;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.second-brain-container .brain-info h1 {
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+    text-align: left;
+    text-transform: capitalize;
+    padding-right: 50px;
+}
+
+.second-brain-container .brain-info .brain-des {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #627382;
+    text-align: left;
+    padding-right: 190px;
+    margin-bottom: 40px;
+}
+
+.second-brain-container .brain-info .brain-point {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.second-brain-container .brain-info .brain-point p {
+    font-size: 16px;
+    line-height: 20px;
+    color: #001931;
+}
+
+.second-brain-container .brain-info .brain-point p i {
+    color: #30B868;
+    margin-left: 6px;
+}
